@@ -1,0 +1,40 @@
+.main_container_messagecontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding: 4rem;
+}
+
+.main_box_messagecontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main_box_left_section_messagecontainer {
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid #ebebeb;
+    background-color: white;
+    border-right: 1px solid #020202;
+}
+
+.main_box_right_section_messagecontainer {
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+}
+
+.main_item_messagecontainer {
+    padding: 15px;
+    height: 4rem;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+}
+
+.active {
+    background-color: red;
+}

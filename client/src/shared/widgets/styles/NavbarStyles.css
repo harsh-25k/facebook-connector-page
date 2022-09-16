@@ -1,0 +1,121 @@
+.main_container_navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3% 1%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow-x: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    /* height: 56px; */
+  }
+
+  .first_section_navbar {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+  }
+
+  .logo_container_navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ebebeb;
+    object-fit: cover;
+    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 15%));
+    margin-top: 5px;
+  }
+
+  .search_container_navbar {
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+    background-color: #f0f2f5;
+    border-radius: 50px;
+    padding: 5px 12px;
+  }
+
+  .search_container_navbar input {
+    outline: none;
+    border: none;
+    background-color: #f0f2f5;
+    padding: 3px 0;
+    font-size: 16px;
+  }
+
+  .search_icon_navbar {
+    font-size: 18px;
+    color: #7f8184;
+  }
+
+  .second_section_navbar {
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+  }
+
+  .second_section_icons_container_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .second_section_icons_container_navbar:hover {
+    background-color: #f0f2f5;
+  }
+
+  .active_icons_container_navbar {
+    border-bottom: 3px solid #1b74e4;
+    border-radius: 0;
+  }
+
+  .active_icons_container_navbar:hover {
+    background-color: #fff;
+  }
+
+  .second_section_icon_navbar {
+    font-size: 28px;
+    color: #7f8184;
+  }
+
+  .active_icon_navbar {
+    color: #1b74e4;
+  }
+
+
+
+
+  .third_section_navbar {
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    margin-left: 120px;
+  }
+
+  .third_section_icons_container_navbar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e6eb;
+    cursor: pointer;
+  }
+
+  .third_section_icons_container_navbar:hover {
+    background-color: #dadde4;
+  }
+
+  .third_section_icon_navbar {
+    font-size: 20px;
+    color: #050505;
+  }

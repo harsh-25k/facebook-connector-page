@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: var(--white-color);
+}
+
+.light-theme {
+  --primary-color: #1B74E4;
+  --primary-light: #77A7FF;
+  --primary-lightest: #E4D9FC;
+  --primary-dark: #6b2df0;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --warning-color: red;
+  --para-color: #566474;
+  --input-color: #1e272e;
+  --input-border: #E4EBF1;
+  --input-hover: #CAD7E3;   
+  --input-focus: #7840f2;
+  --background-secondary: #f7f7f7;
+  --background-secondary-hover: #E6EAEF;
+  --create-btn: #2851A3;
+  --create-btn-hover: #264d9c;
+  --header-bg: #fff;
+  --info-color-light: #616D7A;
+  --info-color-dark: #68798D;
+  --menu-link: #3f4358;
+  --primary-background: #cbb4f8;
+  --light-gray: #8A8A8A;
+  --accept-color: #CDF3DE;
+  --reject-color: #FFC2C2;
+}
